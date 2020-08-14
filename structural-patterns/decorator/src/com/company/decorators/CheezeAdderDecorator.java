@@ -1,24 +1,25 @@
 package com.company.decorators;
 
-import com.company.IPizza;
+import com.company.PizzaComponentAdder;
 import com.company.pizza_components.Cheeze;
 import com.company.pizza_components.PizzaComponent;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class CheezeDecorator extends PizzaComponentSourceDecorator {
+public class CheezeAdderDecorator extends PizzaComponentAdderDecorator {
 
-    private IPizza currentPizza;
     private List<PizzaComponent> components;
 
-    public CheezeDecorator(IPizza currentPizza) {
-        this.currentPizza = currentPizza;
+    public CheezeAdderDecorator(PizzaComponentAdder pizzaComponentAdderSource) {
+        super(pizzaComponentAdderSource);
     }
 
     @Override
     public List<PizzaComponent> addComponent() {
         components = super.addComponent();
         components.add(new Cheeze());
+        System.out.println("Cheeze added");
         return components;
     }
 }

@@ -1,24 +1,24 @@
 package com.company.decorators;
 
-import com.company.IPizza;
+import com.company.PizzaComponentAdder;
 import com.company.pizza_components.PineApple;
 import com.company.pizza_components.PizzaComponent;
 
 import java.util.List;
 
-public class PineApplesSourceDecorator extends PizzaComponentSourceDecorator {
+public class PineApplesAdderDecorator extends PizzaComponentAdderDecorator {
 
-    private IPizza currentPizza;
     private List<PizzaComponent> components;
 
-    public PineApplesSourceDecorator(IPizza currentPizza) {
-        this.currentPizza = currentPizza;
+    public PineApplesAdderDecorator(PizzaComponentAdder pizzaComponentAdderSource) {
+        super(pizzaComponentAdderSource);
     }
 
     @Override
     public List<PizzaComponent> addComponent() {
         components = super.addComponent();
         components.add(new PineApple());
+        System.out.println("PineApple added");
         return components;
     }
 }

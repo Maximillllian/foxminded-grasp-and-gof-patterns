@@ -4,6 +4,6 @@ import com.company.pizza_components.PizzaComponent;
 
 import java.util.List;
 
-public interface IPizza {
+public interface PizzaComponentAdder {
     List<PizzaComponent> addComponent();
 }
