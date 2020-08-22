@@ -1,6 +1,6 @@
 package com.company;
 
 public interface Publisher {
-    void subscribe(Observer observer);
-    void unsubscribe(Observer observer);
+    void subscribe(Observer observer, WindLevel windLevel);
+    void unsubscribe(Observer observer,  WindLevel windLevel);
 }

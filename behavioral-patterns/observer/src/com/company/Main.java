@@ -8,17 +8,13 @@ public class Main {
         var roadService = new RoadService();
 
         var alarmer = new StormAlarmer(10);
-        alarmer.subscribe(school);
-        alarmer.subscribe(airport);
+        alarmer.subscribe(school, WindLevel.VeryStrong);
+        alarmer.subscribe(airport, WindLevel.HeavyStorm);
 
         for (int velocity = 11; velocity < 30; velocity++) {
             alarmer.setWindVelocity(velocity);
         }
 
-        alarmer.subscribe(roadService);
-
-        for (int velocity = 30; velocity > 10; velocity--) {
-            alarmer.setWindVelocity(velocity);
-        }
+        alarmer.subscribe(roadService, WindLevel.BrutalStorm);
     }
 }
