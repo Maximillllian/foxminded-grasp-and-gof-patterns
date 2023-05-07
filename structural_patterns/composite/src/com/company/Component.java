@@ -1,4 +1,4 @@
-package com.company;
+package structural_patterns.composite.src.com.company;
 
 public interface Component {
     void add(int value);

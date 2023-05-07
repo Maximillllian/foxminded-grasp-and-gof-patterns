@@ -1,7 +1,7 @@
-package com.company;
+package structural_patterns.decorator.src.com.company;
 
-import com.company.pizza_components.Dough;
-import com.company.pizza_components.PizzaComponent;
+import structural_patterns.decorator.src.com.company.pizza_components.Dough;
+import structural_patterns.decorator.src.com.company.pizza_components.PizzaComponent;
 
 import java.util.Arrays;
 import java.util.LinkedList;

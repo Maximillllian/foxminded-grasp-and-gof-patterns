@@ -1,8 +1,8 @@
-package com.company.commands;
+package behavioral_patterns.command.src.com.company.commands;
 
-import com.company.Command;
-import com.company.Pizza;
-import com.company.PizzaComponent;
+import behavioral_patterns.command.src.com.company.Command;
+import behavioral_patterns.command.src.com.company.Pizza;
+import behavioral_patterns.command.src.com.company.PizzaComponent;
 
 public class ComponentAddCommand implements Command {
 

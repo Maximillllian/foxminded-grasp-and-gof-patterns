@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.strategy.src.com.company;
 
 import java.util.ArrayList;
 

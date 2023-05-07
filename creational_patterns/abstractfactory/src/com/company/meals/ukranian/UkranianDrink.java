@@ -1,6 +1,6 @@
-package com.company.meals.ukranian;
+package creational_patterns.abstractfactory.src.com.company.meals.ukranian;
 
-import com.company.meals.Drink;
+import creational_patterns.abstractfactory.src.com.company.meals.Drink;
 
 public class UkranianDrink extends Drink {
 }

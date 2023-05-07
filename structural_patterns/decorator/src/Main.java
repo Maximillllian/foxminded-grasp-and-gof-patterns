@@ -1,6 +1,9 @@
-import com.company.DoughAdderSource;
-import com.company.decorators.BeaconAdderDecorator;
-import com.company.decorators.CheezeAdderDecorator;
+package structural_patterns.decorator.src;
+
+
+import structural_patterns.decorator.src.com.company.DoughAdderSource;
+import structural_patterns.decorator.src.com.company.decorators.BeaconAdderDecorator;
+import structural_patterns.decorator.src.com.company.decorators.CheezeAdderDecorator;
 
 public class Main {
     public static void main(String[] args) {

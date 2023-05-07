@@ -1,13 +1,13 @@
-package com.company.factories;
+package creational_patterns.abstractfactory.src.com.company.factories;
 
-import com.company.meals.Drink;
-import com.company.meals.FirstCourse;
-import com.company.meals.Salad;
-import com.company.meals.SecondCourse;
-import com.company.meals.american.AmericanDrink;
-import com.company.meals.american.AmericanFirstCourse;
-import com.company.meals.american.AmericanSalad;
-import com.company.meals.american.AmericanSecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Drink;
+import creational_patterns.abstractfactory.src.com.company.meals.FirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Salad;
+import creational_patterns.abstractfactory.src.com.company.meals.SecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.american.AmericanDrink;
+import creational_patterns.abstractfactory.src.com.company.meals.american.AmericanFirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.american.AmericanSalad;
+import creational_patterns.abstractfactory.src.com.company.meals.american.AmericanSecondCourse;
 
 public class AmericanMealAbstractFactory implements MealAbstractFactory {
 

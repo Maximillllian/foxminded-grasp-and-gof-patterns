@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.iterator.src.com.company;
 
 public class Main {
 

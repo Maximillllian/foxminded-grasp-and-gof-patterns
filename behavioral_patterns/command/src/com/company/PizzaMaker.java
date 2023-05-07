@@ -1,8 +1,8 @@
-package com.company;
+package behavioral_patterns.command.src.com.company;
 
-import com.company.commands.BakeCommand;
-import com.company.commands.ComponentAddCommand;
-import com.company.components.*;
+import behavioral_patterns.command.src.com.company.commands.BakeCommand;
+import behavioral_patterns.command.src.com.company.commands.ComponentAddCommand;
+import behavioral_patterns.command.src.com.company.components.*;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,9 +1,9 @@
-package com.company.factories;
+package creational_patterns.abstractfactory.src.com.company.factories;
 
-import com.company.meals.Drink;
-import com.company.meals.FirstCourse;
-import com.company.meals.Salad;
-import com.company.meals.SecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Drink;
+import creational_patterns.abstractfactory.src.com.company.meals.FirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Salad;
+import creational_patterns.abstractfactory.src.com.company.meals.SecondCourse;
 
 public interface MealAbstractFactory {
 

@@ -1,6 +1,6 @@
-package com.company;
+package behavioral_patterns.chain_of_responsibility.src;
 
-import com.company.entities.Injury;
+import behavioral_patterns.chain_of_responsibility.src.entities.Injury;
 
 public class Main {
 

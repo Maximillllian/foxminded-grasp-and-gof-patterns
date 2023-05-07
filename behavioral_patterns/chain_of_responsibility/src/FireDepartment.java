@@ -1,7 +1,7 @@
-package com.company;
+package behavioral_patterns.chain_of_responsibility.src;
 
-import com.company.entities.Accident;
-import com.company.entities.Fire;
+import behavioral_patterns.chain_of_responsibility.src.entities.Accident;
+import behavioral_patterns.chain_of_responsibility.src.entities.Fire;
 
 public class FireDepartment extends BaseEmergencyCallHandler {
 

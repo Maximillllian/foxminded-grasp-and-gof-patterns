@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.observer.src.com.company;
 
 public enum WindLevel {
     Calm(0),

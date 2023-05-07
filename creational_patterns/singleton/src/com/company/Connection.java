@@ -1,4 +1,4 @@
-package com.company;
+package creational_patterns.singleton.src.com.company;
 
 import java.util.LinkedList;
 import java.util.List;

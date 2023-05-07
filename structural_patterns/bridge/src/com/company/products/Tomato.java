@@ -1,6 +1,6 @@
-package com.company.products;
+package structural_patterns.bridge.src.com.company.products;
 
-import com.company.Product;
+import structural_patterns.bridge.src.com.company.Product;
 
 public class Tomato implements Product {
 }

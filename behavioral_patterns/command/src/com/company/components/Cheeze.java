@@ -1,6 +1,6 @@
-package com.company.components;
+package behavioral_patterns.command.src.com.company.components;
 
-import com.company.PizzaComponent;
+import behavioral_patterns.command.src.com.company.PizzaComponent;
 
 public class Cheeze extends PizzaComponent {
     public Cheeze(int grams) {

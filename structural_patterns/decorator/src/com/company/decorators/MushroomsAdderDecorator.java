@@ -1,8 +1,8 @@
-package com.company.decorators;
+package structural_patterns.decorator.src.com.company.decorators;
 
-import com.company.PizzaComponentAdder;
-import com.company.pizza_components.Mushrooms;
-import com.company.pizza_components.PizzaComponent;
+import structural_patterns.decorator.src.com.company.PizzaComponentAdder;
+import structural_patterns.decorator.src.com.company.pizza_components.Mushrooms;
+import structural_patterns.decorator.src.com.company.pizza_components.PizzaComponent;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.state.src.com.company;
 
 public interface IOven {
     void increaseTemperature();

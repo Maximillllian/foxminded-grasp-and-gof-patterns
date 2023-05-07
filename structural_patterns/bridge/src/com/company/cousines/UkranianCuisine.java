@@ -1,16 +1,16 @@
-package com.company.cousines;
+package structural_patterns.bridge.src.com.company.cousines;
 
-import com.company.LaunchPart;
-import com.company.NationalСuisine;
-import com.company.Product;
-import com.company.products.Pasta;
-import com.company.products.Potato;
+import structural_patterns.bridge.src.com.company.LaunchPart;
+import structural_patterns.bridge.src.com.company.NationalСuisine;
+import structural_patterns.bridge.src.com.company.Product;
+import structural_patterns.bridge.src.com.company.products.Pasta;
+import structural_patterns.bridge.src.com.company.products.Potato;
 
 public class UkranianCuisine implements NationalСuisine {
 
     private LaunchPart launchPart;
 
-    public UkranianCuisine(com.company.LaunchPart launchPart) {
+    public UkranianCuisine(LaunchPart launchPart) {
         this.launchPart = launchPart;
     }
 

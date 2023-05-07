@@ -1,6 +1,6 @@
-package com.company.meals.american;
+package creational_patterns.abstractfactory.src.com.company.meals.american;
 
-import com.company.meals.Salad;
+import creational_patterns.abstractfactory.src.com.company.meals.Salad;
 
 public class AmericanSalad extends Salad {
 }

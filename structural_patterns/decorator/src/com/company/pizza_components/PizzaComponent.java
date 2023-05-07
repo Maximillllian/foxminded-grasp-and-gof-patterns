@@ -1,4 +1,4 @@
-package com.company.pizza_components;
+package structural_patterns.decorator.src.com.company.pizza_components;
 
 public abstract class PizzaComponent {
 }

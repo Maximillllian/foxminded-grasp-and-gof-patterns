@@ -1,7 +1,7 @@
-package com.company;
+package behavioral_patterns.chain_of_responsibility.src;
 
-import com.company.entities.Accident;
-import com.company.entities.Crime;
+import behavioral_patterns.chain_of_responsibility.src.entities.Accident;
+import behavioral_patterns.chain_of_responsibility.src.entities.Crime;
 
 public class Police extends BaseEmergencyCallHandler {
 

@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.iterator.src.com.company;
 
 import java.util.Comparator;
 import java.util.Iterator;

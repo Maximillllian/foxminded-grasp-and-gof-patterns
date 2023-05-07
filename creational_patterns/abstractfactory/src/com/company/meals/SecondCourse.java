@@ -1,4 +1,4 @@
-package com.company.meals;
+package creational_patterns.abstractfactory.src.com.company.meals;
 
 public abstract class SecondCourse {
 }

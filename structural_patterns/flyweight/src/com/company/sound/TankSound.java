@@ -1,6 +1,6 @@
-package com.company.sound;
+package structural_patterns.flyweight.src.com.company.sound;
 
-import com.company.Sound;
+import structural_patterns.flyweight.src.com.company.Sound;
 
 public class TankSound implements Sound {
     private byte[] sound;

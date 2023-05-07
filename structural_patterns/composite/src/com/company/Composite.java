@@ -1,4 +1,4 @@
-package com.company;
+package structural_patterns.composite.src.com.company;
 
 import java.util.List;
 

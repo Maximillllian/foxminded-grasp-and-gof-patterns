@@ -1,6 +1,6 @@
-package com.company.services;
+package behavioral_patterns.mediator.src.com.company.services;
 
-import com.company.Service;
+import behavioral_patterns.mediator.src.com.company.Service;
 
 public class FlowersDeliveryService implements Service {
     @Override

@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.mediator.src.com.company;
 
 public class ConciergeServiceClient{
     private String name;

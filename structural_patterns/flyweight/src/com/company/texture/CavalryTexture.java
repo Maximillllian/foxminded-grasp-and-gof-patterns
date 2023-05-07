@@ -1,6 +1,6 @@
-package com.company.texture;
+package structural_patterns.flyweight.src.com.company.texture;
 
-import com.company.Texture;
+import structural_patterns.flyweight.src.com.company.Texture;
 
 public class CavalryTexture implements Texture {
     private byte[] bytes;

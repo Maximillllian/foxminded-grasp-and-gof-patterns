@@ -1,6 +1,6 @@
-package com.company.meals.american;
+package creational_patterns.abstractfactory.src.com.company.meals.american;
 
-import com.company.meals.Drink;
+import creational_patterns.abstractfactory.src.com.company.meals.Drink;
 
 public class AmericanDrink extends Drink {
 

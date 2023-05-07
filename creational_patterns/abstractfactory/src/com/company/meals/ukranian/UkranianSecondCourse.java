@@ -1,6 +1,6 @@
-package com.company.meals.ukranian;
+package creational_patterns.abstractfactory.src.com.company.meals.ukranian;
 
-import com.company.meals.SecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.SecondCourse;
 
 public class UkranianSecondCourse extends SecondCourse {
 }

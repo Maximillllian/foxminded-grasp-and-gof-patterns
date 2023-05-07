@@ -1,6 +1,6 @@
-package com.company.meals.ukranian;
+package creational_patterns.abstractfactory.src.com.company.meals.ukranian;
 
-import com.company.meals.Salad;
+import creational_patterns.abstractfactory.src.com.company.meals.Salad;
 
 public class UkranianSalad extends Salad {
 }

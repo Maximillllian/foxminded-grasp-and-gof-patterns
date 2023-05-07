@@ -1,13 +1,13 @@
-package com.company.factories;
+package creational_patterns.abstractfactory.src.com.company.factories;
 
-import com.company.meals.Drink;
-import com.company.meals.FirstCourse;
-import com.company.meals.Salad;
-import com.company.meals.SecondCourse;
-import com.company.meals.japanise.JapaneseDrink;
-import com.company.meals.japanise.JapaneseFirstCourse;
-import com.company.meals.japanise.JapaneseSalad;
-import com.company.meals.japanise.JapaneseSecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Drink;
+import creational_patterns.abstractfactory.src.com.company.meals.FirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Salad;
+import creational_patterns.abstractfactory.src.com.company.meals.SecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.japanise.JapaneseDrink;
+import creational_patterns.abstractfactory.src.com.company.meals.japanise.JapaneseFirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.japanise.JapaneseSalad;
+import creational_patterns.abstractfactory.src.com.company.meals.japanise.JapaneseSecondCourse;
 
 public class JapaneseMealAbstractFactory implements MealAbstractFactory {
     @Override

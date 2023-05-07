@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.momento.src.com.company;
 
 public interface ITextEditor {
     void save();

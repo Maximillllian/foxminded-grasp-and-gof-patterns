@@ -1,7 +1,7 @@
-package com.company;
+package structural_patterns.adapter.src.com.company;
 
-import com.company.entities.DocumentInfo;
-import com.company.entities.Dokumentinformationen;
+import structural_patterns.adapter.src.com.company.entities.DocumentInfo;
+import structural_patterns.adapter.src.com.company.entities.Dokumentinformationen;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;

@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.momento.src.com.company;
 
 import java.util.LinkedList;
 import java.util.List;

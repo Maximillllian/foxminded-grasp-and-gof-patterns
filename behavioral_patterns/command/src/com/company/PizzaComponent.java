@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.command.src.com.company;
 
 public abstract class PizzaComponent {
     protected int grams;

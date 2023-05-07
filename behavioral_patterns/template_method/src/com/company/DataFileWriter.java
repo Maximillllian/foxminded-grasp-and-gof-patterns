@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.template_method.src.com.company;
 
 import java.io.FileWriter;
 import java.io.IOException;

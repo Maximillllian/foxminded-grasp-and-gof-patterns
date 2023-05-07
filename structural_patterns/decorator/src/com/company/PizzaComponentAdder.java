@@ -1,6 +1,6 @@
-package com.company;
+package structural_patterns.decorator.src.com.company;
 
-import com.company.pizza_components.PizzaComponent;
+import structural_patterns.decorator.src.com.company.pizza_components.PizzaComponent;
 
 import java.util.List;
 

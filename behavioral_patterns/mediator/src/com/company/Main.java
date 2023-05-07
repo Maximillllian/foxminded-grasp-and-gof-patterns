@@ -1,8 +1,8 @@
-package com.company;
+package behavioral_patterns.mediator.src.com.company;
 
-import com.company.services.CallMasterService;
-import com.company.services.FlowersDeliveryService;
-import com.company.services.TaxiService;
+import behavioral_patterns.mediator.src.com.company.services.CallMasterService;
+import behavioral_patterns.mediator.src.com.company.services.FlowersDeliveryService;
+import behavioral_patterns.mediator.src.com.company.services.TaxiService;
 
 public class Main {
 

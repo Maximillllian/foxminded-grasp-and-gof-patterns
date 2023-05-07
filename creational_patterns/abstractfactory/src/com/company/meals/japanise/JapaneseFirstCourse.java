@@ -1,6 +1,6 @@
-package com.company.meals.japanise;
+package creational_patterns.abstractfactory.src.com.company.meals.japanise;
 
-import com.company.meals.FirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.FirstCourse;
 
 public class JapaneseFirstCourse extends FirstCourse {
 }

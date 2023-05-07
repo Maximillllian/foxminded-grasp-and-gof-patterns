@@ -1,4 +1,4 @@
-package com.company;
+package creational_patterns.Builder.src.com.company;
 
 public interface IPizzaBuilder {
     void reset();

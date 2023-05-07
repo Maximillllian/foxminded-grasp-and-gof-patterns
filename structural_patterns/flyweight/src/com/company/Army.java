@@ -1,8 +1,8 @@
-package com.company;
+package structural_patterns.flyweight.src.com.company;
 
-import com.company.units.InfantryUnit;
-import com.company.units.TankUnit;
-import com.company.units.СavalryUnit;
+import structural_patterns.flyweight.src.com.company.units.InfantryUnit;
+import structural_patterns.flyweight.src.com.company.units.TankUnit;
+import structural_patterns.flyweight.src.com.company.units.СavalryUnit;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.company.factories;
+package creational_patterns.abstractfactory.src.com.company.factories;
 
 public class MealAbstractFactoryFactory {
     public static MealAbstractFactory create(CountryCode country) {

@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.template_method.src.com.company;
 
 import java.time.LocalTime;
 import java.time.LocalDateTime;

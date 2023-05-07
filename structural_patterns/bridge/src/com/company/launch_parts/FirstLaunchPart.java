@@ -1,7 +1,7 @@
-package com.company.launch_parts;
+package structural_patterns.bridge.src.com.company.launch_parts;
 
-import com.company.LaunchPart;
-import com.company.Product;
+import structural_patterns.bridge.src.com.company.LaunchPart;
+import structural_patterns.bridge.src.com.company.Product;
 
 public class FirstLaunchPart implements LaunchPart {
     @Override

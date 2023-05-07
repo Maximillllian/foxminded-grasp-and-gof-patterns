@@ -1,6 +1,6 @@
-package com.company;
+package creational_patterns.abstractfactory.src.com.company;
 
-import com.company.factories.MealAbstractFactoryFactory;
+import creational_patterns.abstractfactory.src.com.company.factories.MealAbstractFactoryFactory;
 
 public class Main {
 

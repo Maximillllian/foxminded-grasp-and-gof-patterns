@@ -1,9 +1,7 @@
-package com.company.units;
+package structural_patterns.flyweight.src.com.company.units;
 
-import com.company.MilitaryUnit;
-import com.company.MilitaryUnitType;
-import com.company.Sound;
-import com.company.Texture;
+import structural_patterns.flyweight.src.com.company.MilitaryUnit;
+import structural_patterns.flyweight.src.com.company.MilitaryUnitType;
 
 public class TankUnit extends MilitaryUnit {
     private static final int STEP = 4;

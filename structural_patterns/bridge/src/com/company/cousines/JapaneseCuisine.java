@@ -1,15 +1,15 @@
-package com.company.cousines;
+package structural_patterns.bridge.src.com.company.cousines;
 
-import com.company.LaunchPart;
-import com.company.NationalСuisine;
-import com.company.Product;
-import com.company.products.Rise;
+import structural_patterns.bridge.src.com.company.LaunchPart;
+import structural_patterns.bridge.src.com.company.NationalСuisine;
+import structural_patterns.bridge.src.com.company.Product;
+import structural_patterns.bridge.src.com.company.products.Rise;
 
 public class JapaneseCuisine implements NationalСuisine {
 
     private LaunchPart launchPart;
 
-    public JapaneseCuisine(com.company.LaunchPart launchPart) {
+    public JapaneseCuisine(LaunchPart launchPart) {
         this.launchPart = launchPart;
     }
 

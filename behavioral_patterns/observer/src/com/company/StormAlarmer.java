@@ -1,4 +1,4 @@
-package com.company;
+package behavioral_patterns.observer.src.com.company;
 
 import java.util.HashMap;
 import java.util.LinkedList;

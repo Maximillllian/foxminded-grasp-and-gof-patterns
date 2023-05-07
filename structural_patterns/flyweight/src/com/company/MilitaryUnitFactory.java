@@ -1,12 +1,11 @@
-package com.company;
+package structural_patterns.flyweight.src.com.company;
 
-import com.company.sound.CavalrySound;
-import com.company.sound.InfantrySound;
-import com.company.sound.TankSound;
-import com.company.texture.CavalryTexture;
-import com.company.texture.InfantryTexture;
-import com.company.texture.TankTexture;
-import com.company.units.InfantryUnit;
+import structural_patterns.flyweight.src.com.company.sound.CavalrySound;
+import structural_patterns.flyweight.src.com.company.sound.InfantrySound;
+import structural_patterns.flyweight.src.com.company.sound.TankSound;
+import structural_patterns.flyweight.src.com.company.texture.CavalryTexture;
+import structural_patterns.flyweight.src.com.company.texture.InfantryTexture;
+import structural_patterns.flyweight.src.com.company.texture.TankTexture;
 
 import java.util.List;
 

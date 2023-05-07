@@ -1,6 +1,6 @@
-package com.company.meals.american;
+package creational_patterns.abstractfactory.src.com.company.meals.american;
 
-import com.company.meals.SecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.SecondCourse;
 
 public class AmericanSecondCourse extends SecondCourse {
 }

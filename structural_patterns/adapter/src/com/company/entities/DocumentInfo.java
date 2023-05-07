@@ -1,4 +1,4 @@
-package com.company.entities;
+package structural_patterns.adapter.src.com.company.entities;
 
 import java.util.Date;
 

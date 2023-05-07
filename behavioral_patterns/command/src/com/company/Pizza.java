@@ -1,6 +1,6 @@
-package com.company;
+package behavioral_patterns.command.src.com.company;
 
-import com.company.components.Dough;
+import behavioral_patterns.command.src.com.company.components.Dough;
 
 import java.util.LinkedList;
 import java.util.List;

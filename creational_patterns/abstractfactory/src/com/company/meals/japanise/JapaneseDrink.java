@@ -1,6 +1,6 @@
-package com.company.meals.japanise;
+package creational_patterns.abstractfactory.src.com.company.meals.japanise;
 
-import com.company.meals.Drink;
+import creational_patterns.abstractfactory.src.com.company.meals.Drink;
 
 public class JapaneseDrink extends Drink {
 }

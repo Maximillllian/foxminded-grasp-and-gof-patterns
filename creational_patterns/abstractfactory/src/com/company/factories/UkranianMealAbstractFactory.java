@@ -1,13 +1,13 @@
-package com.company.factories;
+package creational_patterns.abstractfactory.src.com.company.factories;
 
-import com.company.meals.Drink;
-import com.company.meals.FirstCourse;
-import com.company.meals.Salad;
-import com.company.meals.SecondCourse;
-import com.company.meals.ukranian.UkranianDrink;
-import com.company.meals.ukranian.UkranianFirstCourse;
-import com.company.meals.ukranian.UkranianSalad;
-import com.company.meals.ukranian.UkranianSecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Drink;
+import creational_patterns.abstractfactory.src.com.company.meals.FirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.Salad;
+import creational_patterns.abstractfactory.src.com.company.meals.SecondCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.ukranian.UkranianDrink;
+import creational_patterns.abstractfactory.src.com.company.meals.ukranian.UkranianFirstCourse;
+import creational_patterns.abstractfactory.src.com.company.meals.ukranian.UkranianSalad;
+import creational_patterns.abstractfactory.src.com.company.meals.ukranian.UkranianSecondCourse;
 
 public class UkranianMealAbstractFactory implements MealAbstractFactory {
     @Override
