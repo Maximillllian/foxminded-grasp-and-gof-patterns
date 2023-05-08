@@ -1,7 +1,8 @@
-package structural_patterns.adapter.src.com.company;
+package structural_patterns.adapter.deprecated;
 
-import structural_patterns.adapter.src.com.company.entities.DocumentInfo;
-import structural_patterns.adapter.src.com.company.entities.Dokumentinformationen;
+import structural_patterns.adapter.external_library.DeutscherDokumentenflussanbieter;
+import structural_patterns.adapter.deprecated.entities.DocumentInfo;
+import structural_patterns.adapter.external_library.Dokumentinformationen;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -24,12 +25,12 @@ public class EdiProviderProxy implements EdiProvider {
         Dokumentinformationen dokumentinformationen = new Dokumentinformationen();
         dokumentinformationen.setAnsenderId(documentInfo.getSenderId());
         dokumentinformationen.setDateinhalt(documentInfo.getData());
-        dokumentinformationen.setDocumentsDatum(documentInfo.getDocumentDate());
+        dokumentinformationen.setDokumentsDatum(documentInfo.getDocumentDate());
 
         var documentName = documentInfo.getDocumentNumber() + "_" + documentInfo.getDocumentDate();
-        dokumentinformationen.setDocumentsName(documentName);
+        dokumentinformationen.setDokumentsName(documentName);
         dokumentinformationen.setEmpfängerId(documentInfo.getReceiverId());
-        deutscherDokumentenflussanbieter.documentSenden(documentInfo.getReceiverId(), documentInfo.getSenderId(), dokumentinformationen);
+        deutscherDokumentenflussanbieter.dokumentSenden(documentInfo.getReceiverId(), documentInfo.getSenderId(), dokumentinformationen);
     }
 
     @Override
@@ -38,7 +39,7 @@ public class EdiProviderProxy implements EdiProvider {
                 .stream()
                 .limit(limit)
                 .map(x -> new DocumentInfo(
-                        x.getDocumentsDatum(),
+                        x.getDokumentsDatum(),
                         Date.from(
                                 LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant()),
                         x.getDokumentnummer(),

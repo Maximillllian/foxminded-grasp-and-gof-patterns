@@ -1,12 +1,12 @@
-package structural_patterns.adapter.src.com.company.entities;
+package structural_patterns.adapter.external_library;
 
 import java.util.Date;
 
 public class Dokumentinformationen {
 
-    private String documentsName;
+    private String dokumentsName;
     private byte[] dateinhalt;
-    private Date documentsDatum;
+    private Date dokumentsDatum;
     private String empfängerId;
 
     public String getDokumentnummer() {
@@ -33,12 +33,12 @@ public class Dokumentinformationen {
 
     private String ansenderId;
 
-    public String getDocumentsName() {
-        return documentsName;
+    public String getDokumentsName() {
+        return dokumentsName;
     }
 
-    public void setDocumentsName(String documentsName) {
-        this.documentsName = documentsName;
+    public void setDokumentsName(String dokumentsName) {
+        this.dokumentsName = dokumentsName;
     }
 
     public byte[] getDateinhalt() {
@@ -49,11 +49,11 @@ public class Dokumentinformationen {
         this.dateinhalt = dateinhalt;
     }
 
-    public Date getDocumentsDatum() {
-        return documentsDatum;
+    public Date getDokumentsDatum() {
+        return dokumentsDatum;
     }
 
-    public void setDocumentsDatum(Date documentsDatum) {
-        this.documentsDatum = documentsDatum;
+    public void setDokumentsDatum(Date dokumentsDatum) {
+        this.dokumentsDatum = dokumentsDatum;
     }
 }

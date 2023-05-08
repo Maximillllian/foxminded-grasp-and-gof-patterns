@@ -1,6 +1,6 @@
-package structural_patterns.adapter.src.com.company;
+package structural_patterns.adapter.deprecated;
 
-import structural_patterns.adapter.src.com.company.entities.DocumentInfo;
+import structural_patterns.adapter.deprecated.entities.DocumentInfo;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
