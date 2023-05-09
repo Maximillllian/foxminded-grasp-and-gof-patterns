@@ -1,10 +1,10 @@
-package structural_patterns.bridge.src.com.company;
+package structural_patterns.bridge._deprecated;
 
-import structural_patterns.bridge.src.com.company.cousines.JapaneseCuisine;
-import structural_patterns.bridge.src.com.company.launch_parts.Desert;
-import structural_patterns.bridge.src.com.company.launch_parts.FirstLaunchPart;
-import structural_patterns.bridge.src.com.company.launch_parts.SecondLaunchPart;
-import structural_patterns.bridge.src.com.company.launch_parts.ThirdLaunchPart;
+import structural_patterns.bridge._deprecated.cousines.JapaneseCuisine;
+import structural_patterns.bridge._deprecated.launch_parts.Desert;
+import structural_patterns.bridge._deprecated.launch_parts.FirstLaunchPart;
+import structural_patterns.bridge._deprecated.launch_parts.SecondLaunchPart;
+import structural_patterns.bridge._deprecated.launch_parts.ThirdLaunchPart;
 
 public class Main {
 

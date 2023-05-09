@@ -1,10 +1,10 @@
-package structural_patterns.bridge.src.com.company.cousines;
+package structural_patterns.bridge._deprecated.cousines;
 
-import structural_patterns.bridge.src.com.company.LaunchPart;
-import structural_patterns.bridge.src.com.company.NationalСuisine;
-import structural_patterns.bridge.src.com.company.Product;
-import structural_patterns.bridge.src.com.company.products.Cheeze;
-import structural_patterns.bridge.src.com.company.products.Potato;
+import structural_patterns.bridge._deprecated.LaunchPart;
+import structural_patterns.bridge._deprecated.NationalСuisine;
+import structural_patterns.bridge._deprecated.Product;
+import structural_patterns.bridge._deprecated.products.Potato;
+import structural_patterns.bridge._deprecated.products.Cheeze;
 
 public class AmericanCuisine implements NationalСuisine {
 
