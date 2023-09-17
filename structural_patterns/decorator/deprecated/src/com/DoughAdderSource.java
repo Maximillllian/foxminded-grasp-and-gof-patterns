@@ -1,9 +1,8 @@
-package structural_patterns.decorator.src.com.company;
+package structural_patterns.decorator.deprecated.src.com;
 
-import structural_patterns.decorator.src.com.company.pizza_components.Dough;
-import structural_patterns.decorator.src.com.company.pizza_components.PizzaComponent;
+import structural_patterns.decorator.deprecated.src.com.pizza_components.Dough;
+import structural_patterns.decorator.deprecated.src.com.pizza_components.PizzaComponent;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
