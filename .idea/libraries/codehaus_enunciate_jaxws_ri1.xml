@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="codehaus.enunciate.jaxws.ri1" type="repository">
+    <properties maven-id="org.codehaus.enunciate:enunciate-jaxws-ri:1.31" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/enunciate-jaxws-ri-1.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/enunciate-core-1.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/enunciate-core-rt-1.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/enunciate-core-annotations-1.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr250-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr311-api-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/servlet-api-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker-2.3.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/apt-jelly-freemarker-2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/apt-jelly-core-2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
