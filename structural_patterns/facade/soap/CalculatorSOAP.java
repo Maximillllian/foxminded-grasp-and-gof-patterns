@@ -1,12 +1,18 @@
 package structural_patterns.facade.soap;
 
-import jakarta.xml.bind.JAXBContext;
-import jakarta.xml.bind.JAXBException;
-import jakarta.xml.soap.*;
-import lombok.extern.slf4j.Slf4j;
-import structural_patterns.facade.calculator.org.tempuri.AddResponse;
+import org.w3c.dom.Document;
+import structural_patterns.facade.calculator.org.tempuri.Add;
 
-import java.net.URL;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.soap.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.util.logging.Logger;
 
 public class CalculatorSOAP {
@@ -14,7 +20,8 @@ public class CalculatorSOAP {
     private static final Logger LOG = Logger.getLogger(String.valueOf(CalculatorSOAP.class));
 
     // The SOAP server URI
-    private String uriSOAPServer;
+    private String uriSOAPServer = "http://www.dneonline.com/calculator.asmx";
+    private String actionUrl = "http://tempuri.org/";
     // The SOAP connection
     private SOAPConnection soapConnection = null;
 
@@ -27,8 +34,6 @@ public class CalculatorSOAP {
      *            the SOAP server URI
      */
     public CalculatorSOAP() {
-        this.uriSOAPServer = "http://www.dneonline.com/calculator.asmx";
-
         try {
             createSOAPConnection();
         } catch (UnsupportedOperationException | SOAPException e) {
@@ -51,41 +56,57 @@ public class CalculatorSOAP {
         soapConnection = soapConnectionFactory.createConnection();
     }
 
-    public <T> T sendMessageToSOAPServer(String body, String operation, Class<T> responseClass)  {
+    public <T> T sendMessageToSOAPServer(Object body, String operation, Class<T> responseClass)  {
 
         try {
             // Send SOAP Message to SOAP Server
             final SOAPMessage soapResponse = soapConnection.call(
                 createSOAPRequest(body, operation),
                 uriSOAPServer);
-
+//            soapResponse.setName
+            var out = new ByteArrayOutputStream();
+            soapResponse.writeTo(out);
+            String strMsg = new String(out.toByteArray());
             // Print SOAP Response
-            LOG.info("Response SOAP Message : " + soapResponse.toString());
+            LOG.info("Response SOAP Message : " + strMsg);
             var jc = JAXBContext.newInstance(responseClass);
             var unmarshaller = jc.createUnmarshaller();
-            return (T) unmarshaller.unmarshal(soapResponse.getSOAPBody());
-        } catch (SOAPException | JAXBException e) {
+            return (T) unmarshaller.unmarshal(soapResponse.getSOAPBody().extractContentAsDocument());
+        } catch (SOAPException | JAXBException | ParserConfigurationException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private SOAPMessage createSOAPRequest(String body, String operation) throws SOAPException {
+    private SOAPMessage createSOAPRequest(Object body, String operation) throws SOAPException, JAXBException, ParserConfigurationException {
         final MessageFactory messageFactory = MessageFactory.newInstance();
         final SOAPMessage soapMessage = messageFactory.createMessage();
         final SOAPPart soapPart = soapMessage.getSOAPPart();
 
         // SOAP Envelope
         final SOAPEnvelope envelope = soapPart.getEnvelope();
-        envelope.addNamespaceDeclaration(PREFIX_NAMESPACE, NAMESPACE);
+//        envelope.addNamespaceDeclaration(PREFIX_NAMESPACE, NAMESPACE);
 
         // SOAP Body
         final SOAPBody soapBody = envelope.getBody();
-        soapBody.addChildElement(body);
+
+        JAXBContext jc = JAXBContext.newInstance(body.getClass());
+        // Create the Document
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        DocumentBuilder db = dbf.newDocumentBuilder();
+        Document document = db.newDocument();
+
+        // Marshal the Object to a Document
+        var marshaller = jc.createMarshaller();
+        marshaller.marshal(body, document);
+
+        soapBody.addDocument(document);
 
         // Mime Headers
         final MimeHeaders headers = soapMessage.getMimeHeaders();
-        LOG.info("SOAPAction : " + uriSOAPServer + operation);
-        headers.addHeader("SOAPAction", uriSOAPServer + operation);
+        LOG.info("SOAPAction : " + actionUrl + operation);
+        headers.addHeader("SOAPAction", actionUrl + operation);
 
         soapMessage.saveChanges();
 

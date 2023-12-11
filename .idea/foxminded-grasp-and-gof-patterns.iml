@@ -22,7 +22,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="codehaus.enunciate.jaxws.ri" level="project" />
-    <orderEntry type="library" name="codehaus.enunciate.jaxws.ri1" level="project" />
     <orderEntry type="library" name="guicedee.services.jakarta.xml.ws.api" level="project" />
     <orderEntry type="module-library">
       <library>
@@ -34,6 +33,10 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
-    <orderEntry type="library" name="jakarta.xml.bind.api" level="project" />
+    <orderEntry type="library" name="sun.xml.messaging.saaj.impl" level="project" />
+    <orderEntry type="library" name="javax.xml.bind.jaxb.api" level="project" />
+    <orderEntry type="library" name="glassfish.jaxb.runtime" level="project" />
+    <orderEntry type="library" name="javax.activation" level="project" />
+    <orderEntry type="library" name="javax.xml.soap.saaj.api" level="project" />
   </component>
 </module>
