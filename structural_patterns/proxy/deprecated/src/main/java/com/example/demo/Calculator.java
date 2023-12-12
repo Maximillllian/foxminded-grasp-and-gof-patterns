@@ -1,4 +1,4 @@
-package structural_patterns.proxy.src.main.java.com.example.demo;
+package structural_patterns.proxy.deprecated.src.main.java.com.example.demo;
 
 public interface Calculator {
     int add(int a, int b);
