@@ -1,6 +1,6 @@
-package behavioral_patterns.command.src.com.company;
+package behavioral_patterns.command.deprecated.src.com.company;
 
-import behavioral_patterns.command.src.com.company.components.Dough;
+import behavioral_patterns.command.deprecated.src.com.company.components.Dough;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package behavioral_patterns.command.src.com.company;
+package behavioral_patterns.command.deprecated.src.com.company;
 
 public class Main {
 

@@ -1,7 +1,7 @@
-package behavioral_patterns.command.src.com.company.commands;
+package behavioral_patterns.command.deprecated.src.com.company.commands;
 
-import behavioral_patterns.command.src.com.company.Command;
-import behavioral_patterns.command.src.com.company.Pizza;
+import behavioral_patterns.command.deprecated.src.com.company.Command;
+import behavioral_patterns.command.deprecated.src.com.company.Pizza;
 
 public class BakeCommand implements Command {
 
