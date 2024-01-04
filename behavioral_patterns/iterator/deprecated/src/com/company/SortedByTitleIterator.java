@@ -1,4 +1,4 @@
-package behavioral_patterns.iterator.src.com.company;
+package behavioral_patterns.iterator.deprecated.src.com.company;
 
 import java.util.Comparator;
 import java.util.stream.Collectors;

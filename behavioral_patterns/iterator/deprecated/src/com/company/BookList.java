@@ -1,8 +1,7 @@
-package behavioral_patterns.iterator.src.com.company;
+package behavioral_patterns.iterator.deprecated.src.com.company;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 
 public class BookList extends ArrayList<Book> {

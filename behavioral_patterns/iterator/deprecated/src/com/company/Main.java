@@ -1,4 +1,4 @@
-package behavioral_patterns.iterator.src.com.company;
+package behavioral_patterns.iterator.deprecated.src.com.company;
 
 public class Main {
 
