@@ -3,10 +3,10 @@ package structural_patterns.flyweight.deprecated.src.com.company.units;
 import structural_patterns.flyweight.deprecated.src.com.company.MilitaryUnit;
 import structural_patterns.flyweight.deprecated.src.com.company.MilitaryUnitType;
 
-public class СavalryUnit extends MilitaryUnit {
+public class CavalryUnit extends MilitaryUnit {
     private static final int STEP = 1;
 
-    public СavalryUnit(int x, int y, MilitaryUnitType militaryUnitType) {
+    public CavalryUnit(int x, int y, MilitaryUnitType militaryUnitType) {
         super(x, y, militaryUnitType);
     }
 

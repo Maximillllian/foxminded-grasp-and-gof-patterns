@@ -2,7 +2,7 @@ package structural_patterns.flyweight.deprecated.src.com.company;
 
 import structural_patterns.flyweight.deprecated.src.com.company.units.InfantryUnit;
 import structural_patterns.flyweight.deprecated.src.com.company.units.TankUnit;
-import structural_patterns.flyweight.deprecated.src.com.company.units.СavalryUnit;
+import structural_patterns.flyweight.deprecated.src.com.company.units.CavalryUnit;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ public class Army {
             var militaryUnit = new InfantryUnit(x, y, militaryUnitType);
             units.add(militaryUnit);
         } else if (unitType == UnitType.Cavalry) {
-            var militartUnit = new СavalryUnit(x, y, militaryUnitType);
+            var militartUnit = new CavalryUnit(x, y, militaryUnitType);
             units.add(militartUnit);
         } else if (unitType == UnitType.Tank) {
             var militartUnit = new TankUnit(x, y, militaryUnitType);
