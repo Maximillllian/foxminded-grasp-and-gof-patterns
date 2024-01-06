@@ -1,8 +1,8 @@
-package behavioral_patterns.mediator.src.com.company;
+package behavioral_patterns.mediator.deprecated.src.com.company;
 
-import behavioral_patterns.mediator.src.com.company.services.CallMasterService;
-import behavioral_patterns.mediator.src.com.company.services.FlowersDeliveryService;
-import behavioral_patterns.mediator.src.com.company.services.TaxiService;
+import behavioral_patterns.mediator.deprecated.src.com.company.services.CallMasterService;
+import behavioral_patterns.mediator.deprecated.src.com.company.services.FlowersDeliveryService;
+import behavioral_patterns.mediator.deprecated.src.com.company.services.TaxiService;
 
 public class Main {
 
