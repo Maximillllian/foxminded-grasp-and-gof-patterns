@@ -1,4 +1,4 @@
-package behavioral_patterns.observer.src.com.company;
+package behavioral_patterns.observer.deprecated.src.com.company;
 
 public interface Publisher {
     void subscribe(Observer observer, WindLevel windLevel);

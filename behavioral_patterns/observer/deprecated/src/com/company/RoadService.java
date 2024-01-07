@@ -1,4 +1,4 @@
-package behavioral_patterns.observer.src.com.company;
+package behavioral_patterns.observer.deprecated.src.com.company;
 
 public class RoadService implements Observer {
     @Override

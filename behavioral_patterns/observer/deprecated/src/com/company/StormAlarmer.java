@@ -1,8 +1,6 @@
-package behavioral_patterns.observer.src.com.company;
+package behavioral_patterns.observer.deprecated.src.com.company;
 
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
 
 public class StormAlarmer implements Publisher {
