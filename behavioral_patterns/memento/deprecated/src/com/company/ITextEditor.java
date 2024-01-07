@@ -1,4 +1,4 @@
-package behavioral_patterns.momento.src.com.company;
+package behavioral_patterns.memento.deprecated.src.com.company;
 
 public interface ITextEditor {
     void save();

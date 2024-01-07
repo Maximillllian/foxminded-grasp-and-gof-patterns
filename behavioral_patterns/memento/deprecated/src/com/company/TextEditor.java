@@ -1,7 +1,5 @@
-package behavioral_patterns.momento.src.com.company;
+package behavioral_patterns.memento.deprecated.src.com.company;
 
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Stack;
 
 public class TextEditor implements ITextEditor {
